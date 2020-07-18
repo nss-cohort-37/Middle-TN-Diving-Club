@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-
+    line-height: 1.7em;
 }
 
 .header, .container {
@@ -40,6 +40,7 @@ body {
 .leftAlignText {
     text-align: left;
     display: inline-block;
+    margin: 0 auto;
 }
 
 #costsTable {
@@ -53,6 +54,8 @@ body {
 
 .infoContainer:last-of-type {
     flex-direction: column;
+    max-width: fit-content;
+    margin: 0 auto;
 }
 
 #generalInfo {
